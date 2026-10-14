@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:minHeight="180dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:gravity="bottom|end"
+            android:maxLines="2"
+            android:text="@string/calc_zero"
+            android:textColor="@color/calc_text"
+            android:textSize="64sp" />
+
+        <LinearLayout style="@style/CalcRow">
+            <Button android:id="@+id/btnMc" style="@style/CalcMemory" android:text="@string/calc_mc" />
+            <Button android:id="@+id/btnMr" style="@style/CalcMemory" android:text="@string/calc_mr" />
+            <Button android:id="@+id/btnMplus" style="@style/CalcMemory" android:text="@string/calc_mplus" />
+            <Button android:id="@+id/btnMsub" style="@style/CalcMemory" android:text="@string/calc_msub" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/CalcRow" android:layout_marginTop="8dp">
+            <Button android:id="@+id/btnAc" style="@style/CalcAction" android:layout_weight="2" android:text="@string/calc_ac" />
+            <Button android:id="@+id/btnDel" style="@style/CalcUtility" android:text="@string/calc_del" />
+            <Button android:id="@+id/btnDiv" style="@style/CalcOperation" android:text="@string/calc_div" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/CalcRow">
+            <Button android:id="@+id/btn7" style="@style/CalcButton" android:text="@string/calc_seven" />
+            <Button android:id="@+id/btn8" style="@style/CalcButton" android:text="@string/calc_eight" />
+            <Button android:id="@+id/btn9" style="@style/CalcButton" android:text="@string/calc_nine" />
+            <Button android:id="@+id/btnMult" style="@style/CalcOperation" android:text="@string/calc_mult" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/CalcRow">
+            <Button android:id="@+id/btn4" style="@style/CalcButton" android:text="@string/calc_four" />
+            <Button android:id="@+id/btn5" style="@style/CalcButton" android:text="@string/calc_five" />
+            <Button android:id="@+id/btn6" style="@style/CalcButton" android:text="@string/calc_six" />
+            <Button android:id="@+id/btnSub" style="@style/CalcOperation" android:text="@string/calc_sub" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/CalcRow">
+            <Button android:id="@+id/btn1" style="@style/CalcButton" android:text="@string/calc_one" />
+            <Button android:id="@+id/btn2" style="@style/CalcButton" android:text="@string/calc_two" />
+            <Button android:id="@+id/btn3" style="@style/CalcButton" android:text="@string/calc_three" />
+            <Button android:id="@+id/btnSum" style="@style/CalcOperation" android:text="@string/calc_sum" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/CalcRow">
+            <Button android:id="@+id/btn0" style="@style/CalcButton" android:text="@string/calc_zero" />
+            <Button android:id="@+id/btnDecimal" style="@style/CalcButton" android:text="@string/calc_decimal" />
+            <Button android:id="@+id/btnEq" style="@style/CalcEqual" android:layout_weight="2" android:text="@string/calc_equal" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

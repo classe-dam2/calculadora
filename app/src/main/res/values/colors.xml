@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="calc_background">#111111</color>
+    <color name="calc_key">#202020</color>
+    <color name="calc_text">#F4F4F4</color>
+    <color name="calc_muted">#A6A6A6</color>
+    <color name="calc_accent">#EEEEEE</color>
+    <color name="calc_operator">#2C2C2C</color>
+    <color name="calc_ripple">#33FFFFFF</color>
+</resources>

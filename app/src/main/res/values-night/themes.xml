@@ -1,0 +1,10 @@
+<resources>
+    <style name="Base.Theme.Calculadora" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/calc_accent</item>
+        <item name="colorOnPrimary">@color/calc_background</item>
+        <item name="colorSurface">@color/calc_background</item>
+        <item name="android:windowBackground">@color/calc_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

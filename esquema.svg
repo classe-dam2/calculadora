@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="447" height="808" viewBox="0 0 447 808" font-family="Roboto, Arial, sans-serif">
+<rect width="447" height="808" fill="#ffffff"/>
+<g transform="translate(20,20) scale(0.6)">
+<rect x="0" y="0" width="678" height="1280" rx="40" fill="#111111" stroke="#000" stroke-width="4"/>
+<g id="txtResult"><text x="626" y="405" font-size="110" font-weight="300" text-anchor="end" fill="#F4F4F4">0</text></g>
+<g id="btnMc"><text x="124.0" y="545.7" font-size="22" text-anchor="middle" fill="#A6A6A6">MC</text></g>
+<g id="btnMr"><text x="274.0" y="545.7" font-size="22" text-anchor="middle" fill="#A6A6A6">MR</text></g>
+<g id="btnMplus"><text x="424.0" y="545.7" font-size="22" text-anchor="middle" fill="#A6A6A6">M+</text></g>
+<g id="btnMsub"><text x="574.0" y="545.7" font-size="22" text-anchor="middle" fill="#A6A6A6">M-</text></g>
+<g id="btnAc"><rect x="56" y="610" width="279" height="109" rx="22" fill="#202020"/><text x="195.5" y="674.3" font-size="28" text-anchor="middle" fill="#A6A6A6">AC</text></g>
+<g id="btnDel"><rect x="350" y="612" width="139" height="107" rx="22" fill="#202020"/><text x="419.5" y="673.2" font-size="22" text-anchor="middle" fill="#A6A6A6">DEL</text></g>
+<g id="btnDiv"><rect x="503" y="602" width="139" height="110" rx="22" fill="#2C2C2C"/><text x="572.5" y="674.5" font-size="50" text-anchor="middle" fill="#F4F4F4">/</text></g>
+<g id="btn7"><rect x="56" y="729" width="136" height="109" rx="22" fill="#202020"/><text x="124.0" y="798.9" font-size="44" text-anchor="middle" fill="#F4F4F4">7</text></g>
+<g id="btn8"><rect x="206" y="729" width="136" height="109" rx="22" fill="#202020"/><text x="274.0" y="798.9" font-size="44" text-anchor="middle" fill="#F4F4F4">8</text></g>
+<g id="btn9"><rect x="356" y="729" width="136" height="109" rx="22" fill="#202020"/><text x="424.0" y="798.9" font-size="44" text-anchor="middle" fill="#F4F4F4">9</text></g>
+<g id="btnMult"><rect x="506" y="729" width="136" height="109" rx="22" fill="#2C2C2C"/><text x="574.0" y="801.0" font-size="50" text-anchor="middle" fill="#F4F4F4">x</text></g>
+<g id="btn4"><rect x="56" y="853" width="136" height="109" rx="22" fill="#202020"/><text x="124.0" y="922.9" font-size="44" text-anchor="middle" fill="#F4F4F4">4</text></g>
+<g id="btn5"><rect x="206" y="853" width="136" height="109" rx="22" fill="#202020"/><text x="274.0" y="922.9" font-size="44" text-anchor="middle" fill="#F4F4F4">5</text></g>
+<g id="btn6"><rect x="356" y="853" width="136" height="109" rx="22" fill="#202020"/><text x="424.0" y="922.9" font-size="44" text-anchor="middle" fill="#F4F4F4">6</text></g>
+<g id="btnSub"><rect x="506" y="853" width="136" height="109" rx="22" fill="#2C2C2C"/><text x="574.0" y="925.0" font-size="50" text-anchor="middle" fill="#F4F4F4">-</text></g>
+<g id="btn1"><rect x="56" y="977" width="136" height="109" rx="22" fill="#202020"/><text x="124.0" y="1046.9" font-size="44" text-anchor="middle" fill="#F4F4F4">1</text></g>
+<g id="btn2"><rect x="206" y="977" width="136" height="109" rx="22" fill="#202020"/><text x="274.0" y="1046.9" font-size="44" text-anchor="middle" fill="#F4F4F4">2</text></g>
+<g id="btn3"><rect x="356" y="977" width="136" height="109" rx="22" fill="#202020"/><text x="424.0" y="1046.9" font-size="44" text-anchor="middle" fill="#F4F4F4">3</text></g>
+<g id="btnSum"><rect x="506" y="977" width="136" height="109" rx="22" fill="#2C2C2C"/><text x="574.0" y="1049.0" font-size="50" text-anchor="middle" fill="#F4F4F4">+</text></g>
+<g id="btn0"><rect x="56" y="1103" width="140" height="109" rx="22" fill="#202020"/><text x="126.0" y="1172.9" font-size="44" text-anchor="middle" fill="#F4F4F4">0</text></g>
+<g id="btnDecimal"><rect x="210" y="1103" width="139" height="109" rx="22" fill="#202020"/><text x="279.5" y="1172.9" font-size="44" text-anchor="middle" fill="#F4F4F4">.</text></g>
+<g id="btnEq"><rect x="363" y="1098" width="279" height="109" rx="22" fill="#EEEEEE"/><text x="502.5" y="1167.9" font-size="44" text-anchor="middle" fill="#111111">=</text></g>
+<rect x="262" y="1262" width="174" height="8" rx="4" fill="#ddd"/>
+</g>
+</svg>
